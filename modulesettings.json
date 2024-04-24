@@ -3,7 +3,7 @@
 
     "ObjectDetectionYoloRKNN": {
       "Name": "Object Detection (YOLOv5 RKNN)",
-      "Version": "1.6.1",
+      "Version": "1.6.2",
 
       "PublishingInfo" : {
         "Description": "Provides Object Detection using YOLOv5 RKNN models. This module only works with Rockchip RK3588/RK3588S NPUs like the Orange Pi 5/5B/5 Plus",
@@ -42,7 +42,7 @@
       },
 
       "InstallOptions" : {
-        "Platforms":      [ "orangepi" ], // The platforms this module can and cannot be installed on
+        "Platforms":      [ "orangepi", "radxarock" ], // The platforms this module can and cannot be installed on
        "ModuleReleases": [               // Which server version is compatible with each version of this module.
           { "ModuleVersion": "1.0",   "ServerVersionRange": [ "2.1",   "2.1.12" ], "ReleaseDate": "2023-08-06" },
           { "ModuleVersion": "1.1",   "ServerVersionRange": [ "2.1",   "2.1.12" ], "ReleaseDate": "2023-08-06", "ReleaseNotes": "Corrected installer in docker environment" },
@@ -58,7 +58,8 @@
           { "ModuleVersion": "1.5.2", "ServerVersionRange": [ "2.5.0-RC6", "" ], "ReleaseDate": "2024-01-16", "ReleaseNotes": "Updated modulesettings schema" },
           { "ModuleVersion": "1.5.3", "ServerVersionRange": [ "2.5.0-RC6", "" ], "ReleaseDate": "2024-01-18", "ReleaseNotes": "Updated explorer" },
           { "ModuleVersion": "1.6.0", "ServerVersionRange": [ "2.5.0-RC6", "" ], "ReleaseDate": "2024-01-21", "ReleaseNotes": "Module performance statistics added" },
-          { "ModuleVersion": "1.6.1", "ServerVersionRange": [ "2.5.2", ""     ], "ReleaseDate": "2024-02-08", "ReleaseNotes": "Support for CodeProject.AI Server 2.5.2" }
+          { "ModuleVersion": "1.6.1", "ServerVersionRange": [ "2.5.2", ""     ], "ReleaseDate": "2024-02-08", "ReleaseNotes": "Support for CodeProject.AI Server 2.5.2" },
+          { "ModuleVersion": "1.6.2", "ServerVersionRange": [ "2.5.2", ""     ], "ReleaseDate": "2024-04-20", "ReleaseNotes": "Support for Radxa ROCK hardware" }
         ]
       },
 
@@ -208,7 +209,7 @@
               "Description": "An array of strings containing the names of the models installed."
             }
           ]
-        }        
+        }
       ]      
     }    
   }
