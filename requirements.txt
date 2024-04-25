@@ -11,4 +11,6 @@ Pillow>=4.0.0,<10.0           # Installing Pillow, a Python Image Library
 # See https://raspberrypi-guide.github.io/programming/install-opencv
 opencv-python==4.5.3.56       # Installing OpenCV, the Open source Computer Vision library
 
+CodeProject-AI-SDK            # Installing the CodeProject.AI SDK
+
 # last line empty test
