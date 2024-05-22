@@ -85,7 +85,7 @@
 
       "RouteMaps": [
         {
-          "Name": "Object Detector",
+          "Name": "Object Detector (YOLOv5 RKNN)",
           "Route": "vision/detection",
           "Method": "POST",
           "Command": "detect",
@@ -140,7 +140,7 @@
         },
 
         {
-          "Name": "Custom Object Detector RKNN",
+          "Name": "Custom Object Detector  (YOLOv5 RKNN)",
           "Route": "vision/custom",
           "Method": "POST",
           "Command": "custom",
@@ -192,7 +192,7 @@
         },
 
         {
-          "Name": "Object Detector List Custom Models (RKNN)",
+          "Name": "Object Detector List Custom Models (YOLOv5 RKNN)",
           "Route": "vision/custom/list",
           "Method": "POST",
           "Command": "list-custom",
