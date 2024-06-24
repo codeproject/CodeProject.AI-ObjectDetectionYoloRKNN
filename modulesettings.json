@@ -61,7 +61,7 @@
           { "ModuleVersion": "1.6.1", "ServerVersionRange": [ "2.5.2",     "" ], "ReleaseDate": "2024-02-08", "ReleaseNotes": "Support for CodeProject.AI Server 2.5.2" },
           { "ModuleVersion": "1.6.2", "ServerVersionRange": [ "2.5.2",     "" ], "ReleaseDate": "2024-04-20", "ReleaseNotes": "Support for Radxa ROCK hardware" },
           { "ModuleVersion": "1.7.0", "ServerVersionRange": [ "2.6.5",     "" ], "ReleaseDate": "2024-04-25", "ReleaseNotes": "Update to CodeProject.AI 2.6.5" },
-          { "ModuleVersion": "1.7.1", "ServerVersionRange": [ "2.6.5",     "" ], "ReleaseDate": "2024-06-21", "ReleaseNotes": "Corrections for numpy install issue" }
+          { "ModuleVersion": "1.7.1", "ServerVersionRange": [ "2.6.5",     "" ], "ReleaseDate": "2024-06-21", "ReleaseNotes": "Corrected Numpy 2.0 issue" }
         ]
       },
 
