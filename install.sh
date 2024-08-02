@@ -25,12 +25,12 @@ fi
 
 if [ "${edgeDevice}" != "Orange Pi" ] && [ "${edgeDevice}" != "Radxa ROCK" ]; then
     # writeLine "ObjectDetection (Fast Deploy RKNN) can only be installed on Orange Pi devices" "$color_error"
-    module_install_errors="Unable to install on non-Orange Pi/Radxa ROCK hardware."
+    moduleInstallErrors="Unable to install on non-Orange Pi/Radxa ROCK hardware."
 else
     # Download the models and store in /assets and /custom-models
     getFromServer "models/" "objectdetect-rknn-models.zip"        "assets" "Downloading Standard YOLOv5 RKNN models..."
     getFromServer "models/" "objectdetect-rknn-custom-models.zip" "custom-models" "Downloading Custom YOLOv5 RKNN models..."
     
     # TODO: Check assets created and has files
-    # module_install_errors=...
+    # moduleInstallErrors=...
 fi
