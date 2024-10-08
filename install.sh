@@ -19,6 +19,8 @@ if [ "$1" != "install" ]; then
     exit 1 
 fi
 
+set oneStepPIP=true
+
 # FastDeploy requires a version of GCLIB higher than what's in the RPi Ubuntu OS.
 # We need to work around this - except this lib is tied hard to the OS. Most likely
 # solution is we use the standard FastDeploy libs for non-RockNPU hardware
