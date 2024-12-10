@@ -3,7 +3,7 @@
 
     "ObjectDetectionYoloRKNN": {
       "Name": "Object Detection (YOLOv5 RKNN)",
-      "Version": "1.8.1",
+      "Version": "1.9.0",
 
       "PublishingInfo" : {
         "Description": "Provides Object Detection using YOLOv5 RKNN models. This module only works with Rockchip RK3588/RK3588S NPUs like the Orange Pi 5/5B/5 Plus",
@@ -63,7 +63,8 @@
           { "ModuleVersion": "1.7.0", "ServerVersionRange": [ "2.6.5", "2.7.0"  ], "ReleaseDate": "2024-04-25", "ReleaseNotes": "Update to CodeProject.AI 2.6.5" },
           { "ModuleVersion": "1.7.1", "ServerVersionRange": [ "2.6.5", "2.7.0"  ], "ReleaseDate": "2024-06-21", "ReleaseNotes": "Corrected Numpy 2.0 issue" },
           { "ModuleVersion": "1.8.0", "ServerVersionRange": [ "2.8.0", ""       ], "ReleaseDate": "2024-08-02", "ReleaseNotes": "Updated for server 2.8" },
-          { "ModuleVersion": "1.8.1", "ServerVersionRange": [ "2.8.0", ""       ], "ReleaseDate": "2024-08-02", "ReleaseNotes": "Corrected Numpy 2.0 issue" }
+          { "ModuleVersion": "1.8.1", "ServerVersionRange": [ "2.8.0", ""       ], "ReleaseDate": "2024-08-02", "ReleaseNotes": "Corrected Numpy 2.0 issue" },
+          { "ModuleVersion": "1.9.0", "ServerVersionRange": [ "2.8.0", ""       ], "ReleaseDate": "2024-12-10", "ReleaseNotes": "Updated to use CodeProject.AI SDK" }
         ]
       },
 

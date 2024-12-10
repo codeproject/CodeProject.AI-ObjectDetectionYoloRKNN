@@ -23,7 +23,8 @@ from threading import Lock
 from numpy import array
 from PIL import UnidentifiedImageError
 
-from module_logging import LogMethod
+from codeproject_ai_sdk import LogMethod
+
 from options import Options
 
 # import fastdeploy as fd # rknn
